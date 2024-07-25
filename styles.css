@@ -1,0 +1,50 @@
+
+
+.para{
+    padding: 20px;
+    border: 20px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+
+ul{
+    list-style: none;
+}
+
+h1{
+    font-size: 40px;
+    padding: 20px;
+    border: 20px;
+    margin: 60px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 3em;
+    padding: 0 40px;
+}
+
+.container-one, .container-two, .container-three, .container-four, .container-five  {
+  background-color: #fff;
+  box-shadow: 5px 5px 5px #0000005f;
+  border-radius: 10px;
+}
+
+@media(max-width:1200px){
+    .container{
+        height: 100%;
+        flex-direction: column;
+    }
+.container-one, .container-two, .container-three, .container-four, .container-five{
+    max-width: 80%;
+    padding: 30px;
+}
+}
+
+
+
+
+
+
